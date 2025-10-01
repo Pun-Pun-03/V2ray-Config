@@ -91,7 +91,7 @@ i = 0
 with open("config.txt", "w", encoding="utf-8") as file:
     for code in new_processed_codes:
         if i == 0:
-            config_string = "#🌐 به روزرسانی شده در" + final_string + " | هر 15 دقیقه کانفیگ جدید داریم"
+            config_string = "#1-" + final_string
         else:
             config_string = "# " + str(i) + " | " + str(final_others_string)
         config_final = code + config_string
